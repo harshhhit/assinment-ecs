@@ -1,6 +1,6 @@
 variable "cidr" {
   type    = string
-  default = "145.0.0.0/16"
+  default = "10.0.0.0/16"
 }
 
 variable "azs" {
@@ -14,8 +14,8 @@ variable "azs" {
 variable "subnets-ip" {
   type = list(string)
   default = [
-    "145.0.1.0/24",
-    "145.0.2.0/24"
+    "10.0.1.0/24",
+    "10.0.2.0/24"
   ]
 
 }
