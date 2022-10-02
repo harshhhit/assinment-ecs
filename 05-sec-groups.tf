@@ -1,6 +1,6 @@
 resource "aws_security_group" "sg1" {
   name        = "golang-server"
-  description = "Port 5000"
+  description = "Port 8000"
   vpc_id      = aws_vpc.ecs-vpc.id
 
   ingress {
